@@ -1,0 +1,50 @@
+# ==========================
+# Django / Python
+# ==========================
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+*.log
+media/
+staticfiles/
+
+# Django secrets
+.env
+
+# ==========================
+# React / Node (frontend/)
+# ==========================
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing / Coverage
+# ==========================
+.coverage
+htmlcov/
+.pytest_cache/
